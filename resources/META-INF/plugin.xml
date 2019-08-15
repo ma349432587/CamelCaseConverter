@@ -1,0 +1,50 @@
+<idea-plugin>
+    <id>com.your.company.unique.plugin.id</id>
+    <name>CamelCase</name>
+    <version>1.0</version>
+    <vendor email="349432587@qq.com" url="">maxiaoyao</vendor>
+
+    <description><![CDATA[
+      <h1>Simple camel case converter</h1>
+      <br>
+      <b>demo:</b>
+      <br>
+            CAMELCASE -> camelcase<br>
+            camelcase -> CAMELCASE<br><br>
+            camelCase -> CAMEL_CASE<br>
+            CAMEL_CASE -> camel_case<br>
+            camel_case -> camelCase<br>
+            <br>
+      <b>default keymap:</b><br>
+            ctrl shift U
+      </p>
+    ]]></description>
+
+    <change-notes><![CDATA[
+      <p>Simple camel case plugin with idea native upper lower converter</p>
+    ]]>
+    </change-notes>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+    <idea-version since-build="145.0"/>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <!-- uncomment to enable plugin in all products
+    <depends>com.intellij.modules.lang</depends>
+    -->
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+        <action id="CamelCaseNameConvert" class="com.fan.plugin.action.NameConvertAction" text="CamelCase Convert"
+            description="Java驼峰命名转换">
+            <add-to-group group-id="CodeFormatGroup" anchor="after" relative-to-action="ReformatCode"/>
+            <keyboard-shortcut keymap="$default" first-keystroke="ctrl shift U"/>
+        </action>
+    </actions>
+
+</idea-plugin>
