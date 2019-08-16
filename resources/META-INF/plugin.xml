@@ -1,17 +1,14 @@
 <idea-plugin>
-    <id>com.your.company.unique.plugin.id</id>
+    <id>com.fan.plugin.SimpleCamelCase</id>
     <name>Simple CamelCase</name>
     <version>1.0</version>
     <vendor email="349432587@qq.com" url="">maxiaoyao</vendor>
 
     <description><![CDATA[
-      <h1>Simple camel case converter</h1>
+      <h1>Simple camel case converter</h1><br>
+      <p>Simple CamelCase plugin contain idea native plugin 'Toggle Case'</p><br>
       <br>
-      <p>Simple CamelCase plugin contain idea native plugin 'Toggle Case'</p>
-      <br>
-      <br>
-      <b>demo:</b>
-      <br>
+      <b>demo:</b><br>
             CAMELCASE -> camelcase<br>
             camelcase -> CAMELCASE<br><br>
             camelCase -> CAMEL_CASE<br>
@@ -20,12 +17,13 @@
             camel_camelCase_CASE -> CAMEL_CAMEL_CASE_CASE<br>
             <br>
       <b>default keymap:</b><br>
-            windows -> ctrl + shift + U
-            IOS     -> command + shift + U
-      </p><br>
-      Other: Better to remove 'Toggle Case' shortcut or replace it.<br>
-      Step: Settings -> keymaps -> search 'Toggle case' -> right click -> remove shortcut
+            windows -> ctrl + shift + U <br>
+            IOS     -> command + shift + U <br>
       <br>
+      <b>other:</b><br>
+      Better to remove 'Toggle Case' shortcut or replace it.<br>
+      How to remove:<br>
+      Settings -> keymaps -> search 'Toggle case' -> right click -> remove shortcut<br>
     ]]></description>
 
     <change-notes><![CDATA[
