@@ -6,9 +6,14 @@
 
     <description><![CDATA[
       <h1>Simple camel case converter</h1><br>
-      <p>Simple CamelCase plugin contain idea native plugin 'Toggle Case'</p><br>
+      <p>'Toggle Case' support camelCase.remove 'Toggle Case' shortcut.CAMELCASE -> camelcase camelCase -> CAMEL_CASE</p><br>
       <br>
-      <b>demo:</b><br>
+      <b>default keymap:</b><br>
+            windows -> ctrl + shift + U <br>
+            IOS     -> command + shift + U <br>
+            just make caret on the word that you can convert it.
+      <br>
+      <b>role:</b><br>
             CAMELCASE -> camelcase<br>
             camelcase -> CAMELCASE<br><br>
             camelCase -> CAMEL_CASE<br>
@@ -16,10 +21,6 @@
             camel_case -> camelCase<br>
             camel_camelCase_CASE -> CAMEL_CAMEL_CASE_CASE<br>
             <br>
-      <b>default keymap:</b><br>
-            windows -> ctrl + shift + U <br>
-            IOS     -> command + shift + U <br>
-      <br>
       <b>other:</b><br>
       Better to remove 'Toggle Case' shortcut or replace it.<br>
       How to remove:<br>
