@@ -1,17 +1,17 @@
 <idea-plugin>
     <id>com.fan.plugin.SimpleCamelCase</id>
     <name>Simple CamelCase</name>
-    <version>1.0</version>
+    <version>1.1</version>
     <vendor email="349432587@qq.com" url="">maxiaoyao</vendor>
 
     <description><![CDATA[
-      <h1>Simple camel case converter</h1><br>
-      <p>'Toggle Case' support camelCase.remove 'Toggle Case' shortcut.CAMELCASE -> camelcase camelCase -> CAMEL_CASE</p><br>
+      <p>'Toggle Case' support camelCase .remove 'Toggle Case' shortcut.CAMELCASE <-> camelcase camelCase <-> CAMEL_CASE</p><br>
       <br>
       <b>default keymap:</b><br>
             windows -> ctrl + shift + U <br>
-            IOS     -> command + shift + U <br>
+            Mac     -> command + shift + U <br>
             just make caret on the word that you can convert it.
+            (不选择会转换光标位置上的单词)
       <br>
       <b>role:</b><br>
             CAMELCASE -> camelcase<br>
