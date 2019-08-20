@@ -35,7 +35,8 @@
 
     <change-notes><![CDATA[
       <p>1.0 Simple CamelCase plugin contain idea native plugin 'Toggle Case'</p>
-      <p>1.1 Java file and xml file use different convert rule</p>
+      <p>1.1 modify comment</p>
+      <p>1.2 Java file and xml file use different convert rule</p>
     ]]>
     </change-notes>
 
