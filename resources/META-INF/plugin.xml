@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>com.fan.plugin.SimpleCamelCase</id>
     <name>Simple CamelCase</name>
-    <version>1.1</version>
+    <version>1.2</version>
     <vendor email="349432587@qq.com" url="">maxiaoyao</vendor>
 
     <description><![CDATA[
