@@ -13,13 +13,19 @@
             just make caret on the word that you can convert it.
             (不选择会转换光标位置上的单词)
       <br>
-      <b>role:</b><br>
+      <b>rule:</b><br>
             CAMELCASE -> camelcase<br>
-            camelcase -> CAMELCASE<br><br>
+            camelcase -> CAMELCASE<br>
+            java file:<br>
             camelCase -> CAMEL_CASE<br>
             CAMEL_CASE -> camel_case<br>
-            camel_case -> camelCase<br>
+            camel_case -> CAMEL_CASE<br>
             camel_camelCase_CASE -> CAMEL_CAMEL_CASE_CASE<br>
+            xml file:<br>
+            camelCase -> camel_case<br>
+            camel_case -> CAMEL_CASE<br>
+            CAMEL_CASE -> camelCase<br>
+            camel_camelCase_CASE -> camel_camel_case_case<br>
             <br>
       <b>other:</b><br>
       Better to remove 'Toggle Case' shortcut or replace it.<br>
@@ -28,7 +34,8 @@
     ]]></description>
 
     <change-notes><![CDATA[
-      <p>Simple CamelCase plugin contain idea native plugin 'Toggle Case'</p>
+      <p>1.0 Simple CamelCase plugin contain idea native plugin 'Toggle Case'</p>
+      <p>1.1 Java file and xml file use different convert rule</p>
     ]]>
     </change-notes>
 
