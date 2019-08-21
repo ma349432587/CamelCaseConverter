@@ -49,10 +49,6 @@
     <depends>com.intellij.modules.lang</depends>
     -->
 
-    <extensions defaultExtensionNs="com.intellij">
-        <!-- Add your extensions here -->
-    </extensions>
-
     <actions>
         <!-- Add your actions here -->
         <action id="CamelCaseNameConvert" class="com.fan.plugin.action.NameConvertAction" text="CamelCase Convert"
